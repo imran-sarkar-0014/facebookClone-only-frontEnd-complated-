@@ -1,0 +1,37 @@
+
+.person-container-wrapper{
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-container{
+    width:85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.person-img{
+    flex: 1;
+    margin-right: 5px;
+}
+
+.person-img> .MuiAvatar-root {
+    height: 75px;
+    width: 75px;
+}
+
+
+.info-container{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+}
+.person-name{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,35 @@
+post http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name" : "imran sarkar"
+}
+
+###
+post http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "imran",
+    "lastName": "sarkar",
+    "email":"imran@gmail.com",
+    "password":"imran",
+    "dateOfBirth":{
+        "year":2021,
+        "month":7,
+        "date":27
+    }
+}
+
+###
+post http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email" : "imran@gmail.com",
+    "password" : "imran"
+}
+
+###
+get http://localhost:5000/api/user
+Authorization:token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJiMjQzYjRmYTliMTFmYTQxYmFkYjUiLCJpYXQiOjE2MzAyMTcyNzV9.jRlS2wMcXf1q9h_SAoRjEdYynuwfIHQ02VtwQ4ujm04

@@ -1,0 +1,80 @@
+:root{
+  --primary : #3792ce;
+  --dark : #242526;
+  --light :#fff;
+  --green: rgb(8, 124, 8);
+  --blue: #00f;
+
+  --text-sm: .9em;
+  --text-md: 1em;
+  --text-lg: 1.2em;
+  --text-xlg: 4em;
+}
+
+.light{
+  --bg-color: #f0efef;
+  --text-color: var(var(--dark))
+
+}
+
+*{
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+ /* containers */
+.container-fluid{
+  width: 100vw;
+}
+
+.container{
+  width: 99%;
+  margin-left: .5%;
+
+}
+
+.full-screen{
+  position: absolute;
+  background-color: var(--bg-color);
+  top: 0;
+  left: 0;
+  z-index: 100;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* background and text */
+
+.bg-color{
+  background-color: (--bg-color);
+}
+
+/* tools */
+
+.header-options{
+  height: 90px;
+  background-color: #fff;
+  position: sticky;
+  padding-top: 5px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.no-videos{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+a:-webkit-any-link{
+  color: inherit
+}

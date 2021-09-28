@@ -1,0 +1,49 @@
+.menu-profile{
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+}
+
+.menu-profile-wrapper::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    box-shadow: 1px 2px 3px rgb(77, 75, 75);
+    display: block;
+    background-color: var(--dark);
+}
+
+.user-name-item{
+    font-size: var(--text-md);
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.user-name-item1{
+    color: var(--dark)
+}
+.user-name-item2{
+    color: gray
+}
+
+.menu-item{
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-text{
+    margin-left: 10px;
+    font-size: var(--text-md);
+    font-weight: 500;
+}
+
+.logout-btn{
+    height: 35px;
+    width: 100%;
+    margin-top: 60px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: gray;
+}

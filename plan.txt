@@ -1,0 +1,11 @@
+1: user register,
+2: user login,
+
+3: header and nav
+4: pages
+5: home page and posts
+6: profile
+7: friend request
+8: search
+9: notification
+... to be continue

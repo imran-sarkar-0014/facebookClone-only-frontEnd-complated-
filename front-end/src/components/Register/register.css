@@ -1,0 +1,128 @@
+.registerwrapper{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
+    height: 100%;
+}
+
+.register-heading{
+    margin: 10px 0px;
+    color: var(--primary);
+    font-size: var(--text-xlg);
+}
+
+.register-text{
+    width: 60%;
+    color: (--text-color);
+    font-size: var(--text-lg);
+    padding: 10px 8px 10px 8px;
+    text-align: center;
+}
+
+.register-form-wrapper{
+    width: 75%;
+    max-width: 550px;
+    min-width: 350px;
+    padding: 20px 0px;
+    background-color: var(--light);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box{
+    width: 95%;
+    margin: 5px;
+    padding: 15px 5px;
+    font-size: var(--text-md);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.register-btn{
+    background-color: var(--green);
+    color: var(--light);
+    cursor: pointer;
+}
+
+.forgot-text{
+    font-size: var(--text-sm);
+    color: var(--blue);
+}
+
+.forgot-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.register-create-btn{
+    background-color: var(--green);
+    color: var(--light);
+}
+
+
+/* name input box */
+.register-name-box {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+.register-name-box > .input-box:nth-child(1){
+    margin-left: 2.5px;
+    flex: 1;
+}
+
+
+.register-name-box > .input-box:nth-child(2){
+    margin-right: 2.5px;
+    flex: 1;
+}
+
+/*  */
+
+.register-form-text{
+    align-self: start;
+    padding-left: 20px;
+    font-size: var(--text-sm);
+}
+
+.register-dob-box {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+.register--dob-box > .input-box{
+    flex: 1;
+}
+
+.input-box > select{
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    font-size: var(--text-md);
+    border: none;
+    outline: none;
+}
+
+/*  */
+
+.gender-input-box{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    
+}
+
+.gender-input-box > .input-box{
+    flex: 1;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+}
+

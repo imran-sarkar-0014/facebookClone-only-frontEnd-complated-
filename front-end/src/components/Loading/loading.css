@@ -1,0 +1,21 @@
+.loading{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(84, 84, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.load-img{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.load-text{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}

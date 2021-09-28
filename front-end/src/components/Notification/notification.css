@@ -1,0 +1,28 @@
+.notification-container{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    min-height: 70px;
+    height: auto;
+}
+
+.unseen{
+    background-color: rgb(194, 194, 194);
+}
+
+.notification-body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.notification-text{
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.notification-timestamps{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}

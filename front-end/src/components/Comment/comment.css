@@ -1,0 +1,28 @@
+
+.comment-container{
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.comment{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    background-color: #e4e6eb;
+    border-radius: 15px;
+    padding: 5px 8px;
+}
+
+.user-name{
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: none;
+    margin-bottom: 5px;
+}
+
+.comment-text{
+    font-weight: 200;
+    font-size: 14px;
+}

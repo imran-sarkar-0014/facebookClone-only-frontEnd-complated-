@@ -1,0 +1,8 @@
+.post{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: .5vw;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,88 @@
+.loginwrapper{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
+    height: 100%;
+}
+
+.login-heading{
+    margin-top: 20px;
+    color: var(--primary);
+    font-size: var(--text-xlg);
+}
+
+.login-text{
+    width: 60%;
+    color: (--text-color);
+    font-size: var(--text-md);
+    padding: 10px 8px 10px 8px;
+    text-align: center;
+}
+
+.login-form-wrapper{
+    width: 75%;
+    max-width: 550px;
+    min-width: 350px;
+    padding: 20px 0px;
+    background-color: var(--light);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box{
+    width: 95%;
+    margin: 5px;
+    font-size: var(--text-md);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 15px 5px;
+    display: flex;
+}
+
+.reg-btn-box{
+    width: 95%;
+    margin: 5px;
+    font-size: var(--text-md);
+    border-radius: 5px;
+}
+
+.login-btn{
+    color: #fff;
+    background-color: red;
+    display: block;
+    cursor: pointer;
+}
+
+.forgot-text{
+    font-size: var(--text-sm);
+    color: var(--blue);
+}
+
+.forgot-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+.login-create-btn{
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--text-md);
+    background-color: var(--green);
+    color: var(--light);
+}
+
+.login-hr{
+    width: 85%;
+    height: 1px;
+    margin: 25px 0px;
+    background-color: gray;
+}

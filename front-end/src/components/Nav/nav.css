@@ -1,0 +1,33 @@
+.container-fluid-nav{
+    border: none;
+    height: 40px;
+    box-shadow: 0 4px 2px -2px #8e8f92;
+    position: sticky;
+    background-color: #fff;
+}
+
+.nav-icon-container{
+    width: 99vw;
+    background-color: inherit;
+    margin-left: .5vw;
+    margin-top: 10px;
+    padding: 2px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-icon-wrapper{
+    flex: 1;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-icon{
+    height: 28px;
+    width: 28px;
+    font-weight: bold;
+    color: #8e8f92;
+}

@@ -1,0 +1,8 @@
+.lable{
+    margin: 20px 30px;
+}
+
+.persons{
+    display: flex;
+    flex-direction: column;
+}

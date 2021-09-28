@@ -1,0 +1,45 @@
+
+.comment-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+    height:35px;
+}
+
+.comment-input-wrapper{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    background-color: #e4e6eb;
+    border-radius: 20px;
+}
+
+.comment-input{
+    width: 95%;
+    height: 95%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 1px 10px;
+    font-size: 15px;
+    line-break:strict
+}
+.comment-input-avater{
+    flex: 1;
+}
+
+.send-wrapper{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-button{
+    height: 28px;
+    width: 28px;
+}
